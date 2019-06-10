@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="" parallel="methods">
+	<listeners>
+		<listener class-name=""></listener>
+	</listeners>
+
+	<parameter name="x" value="10"></parameter>
+
+	<test thread-count="5" name="" parallel="classes">
+		<groups>
+			<run>
+				<include name=""></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="">
+				<methods>
+					<exclude name="Mobile.*"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="">
+		<packages>
+			<package name=""></package>
+		</packages>
+	</test>
+</suite>
