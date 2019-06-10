@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15299" started-at="2019-03-21T19:12:09Z" finished-at="2019-03-21T19:12:24Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="15299" started-at="2019-03-21T19:12:09Z" finished-at="2019-03-21T19:12:24Z">
+      <class name="testCases.ValidateTest">
+        <test-method status="PASS" signature="printConsole(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateTest@46d56d67]" name="printConsole" duration-ms="13" started-at="2019-03-22T00:42:09Z" data-provider="pullData" finished-at="2019-03-22T00:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printConsole -->
+        <test-method status="PASS" signature="printConsole(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateTest@46d56d67]" name="printConsole" duration-ms="4" started-at="2019-03-22T00:42:09Z" data-provider="pullData" finished-at="2019-03-22T00:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printConsole -->
+        <test-method status="PASS" signature="printConsole(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateTest@46d56d67]" name="printConsole" duration-ms="0" started-at="2019-03-22T00:42:09Z" data-provider="pullData" finished-at="2019-03-22T00:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printConsole -->
+        <test-method status="PASS" signature="printConsole(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateTest@46d56d67]" name="printConsole" duration-ms="4" started-at="2019-03-22T00:42:09Z" data-provider="pullData" finished-at="2019-03-22T00:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printConsole -->
+        <test-method status="PASS" signature="printConsole(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateTest@46d56d67]" name="printConsole" duration-ms="8" started-at="2019-03-22T00:42:09Z" data-provider="pullData" finished-at="2019-03-22T00:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cde@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printConsole -->
+        <test-method status="PASS" signature="printConsole(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateTest@46d56d67]" name="printConsole" duration-ms="4" started-at="2019-03-22T00:42:09Z" data-provider="pullData" finished-at="2019-03-22T00:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printConsole -->
+        <test-method status="PASS" signature="printConsole(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateTest@46d56d67]" name="printConsole" duration-ms="0" started-at="2019-03-22T00:42:09Z" data-provider="pullData" finished-at="2019-03-22T00:42:09Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printConsole -->
+        <test-method status="PASS" signature="x()[pri:0, instance:testCases.ValidateTest@46d56d67]" name="x" duration-ms="14701" started-at="2019-03-22T00:42:09Z" finished-at="2019-03-22T00:42:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- x -->
+      </class> <!-- testCases.ValidateTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
