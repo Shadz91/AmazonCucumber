@@ -1,0 +1,7 @@
+00:36:42.435 [main] DEBUG resources.Base - Clicked on Search button
+00:36:49.082 [main] DEBUG resources.Base - Clicked on Continue button
+00:36:49.152 [main] INFO  resources.Base - Validated correct error message is displayed successfully
+00:38:26.507 [main] INFO  resources.Base - Entered Departure City successfully
+00:38:26.691 [main] INFO  resources.Base - Entered Arrival City successfully
+00:38:28.938 [main] DEBUG resources.Base - Clicked on Search button
+00:38:35.623 [main] DEBUG resources.Base - Clicked on Continue button

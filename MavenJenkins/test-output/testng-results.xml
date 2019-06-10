@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="36645" started-at="2019-01-06T19:06:14Z" finished-at="2019-01-06T19:06:51Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="36645" started-at="2019-01-06T19:06:14Z" finished-at="2019-01-06T19:06:51Z">
+      <class name="TestCases.ValidateTextTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.ValidateTextTest@7d8995e]" name="setUp" is-config="true" duration-ms="10645" started-at="2019-01-06T19:06:29Z" finished-at="2019-01-06T19:06:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validateText()[pri:0, instance:TestCases.ValidateTextTest@7d8995e]" name="validateText" duration-ms="9209" started-at="2019-01-06T19:06:39Z" finished-at="2019-01-06T19:06:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateText -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.ValidateTextTest@7d8995e]" name="tearDown" is-config="true" duration-ms="2364" started-at="2019-01-06T19:06:49Z" finished-at="2019-01-06T19:06:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.ValidateTextTest -->
+      <class name="TestCases.HomePageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:TestCases.HomePageTest@6cf0e0ba]" name="setUp" is-config="true" duration-ms="9492" started-at="2019-01-06T19:06:14Z" finished-at="2019-01-06T19:06:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initialize()[pri:0, instance:TestCases.HomePageTest@6cf0e0ba]" name="initialize" duration-ms="2529" started-at="2019-01-06T19:06:24Z" finished-at="2019-01-06T19:06:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:TestCases.HomePageTest@6cf0e0ba]" name="tearDown" is-config="true" duration-ms="2374" started-at="2019-01-06T19:06:26Z" finished-at="2019-01-06T19:06:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- TestCases.HomePageTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
