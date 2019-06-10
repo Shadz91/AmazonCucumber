@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke Suite" duration-ms="46" started-at="2018-12-28T18:16:15Z" finished-at="2018-12-28T18:16:15Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46" started-at="2018-12-28T18:16:15Z" finished-at="2018-12-28T18:16:15Z">
+      <class name="qaclickacademy.MavenJava.SeleniumTest">
+        <test-method status="PASS" signature="elementsUi()[pri:0, instance:qaclickacademy.MavenJava.SeleniumTest@6cd8737]" name="elementsUi" duration-ms="0" started-at="2018-12-28T23:46:15Z" finished-at="2018-12-28T23:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- elementsUi -->
+        <test-method status="PASS" signature="browserAutomation()[pri:0, instance:qaclickacademy.MavenJava.SeleniumTest@6cd8737]" name="browserAutomation" duration-ms="0" started-at="2018-12-28T23:46:15Z" finished-at="2018-12-28T23:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserAutomation -->
+      </class> <!-- qaclickacademy.MavenJava.SeleniumTest -->
+      <class name="qaclickacademy.MavenJava.AppiumTest">
+        <test-method status="PASS" signature="iosApps()[pri:0, instance:qaclickacademy.MavenJava.AppiumTest@6108b2d7]" name="iosApps" duration-ms="0" started-at="2018-12-28T23:46:15Z" finished-at="2018-12-28T23:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosApps -->
+        <test-method status="PASS" signature="nativeAppAndroid()[pri:0, instance:qaclickacademy.MavenJava.AppiumTest@6108b2d7]" name="nativeAppAndroid" duration-ms="0" started-at="2018-12-28T23:46:15Z" finished-at="2018-12-28T23:46:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nativeAppAndroid -->
+      </class> <!-- qaclickacademy.MavenJava.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Smoke Suite -->
+</testng-results>
