@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="59050" started-at="2019-02-26T14:14:15Z" finished-at="2019-02-26T14:15:14Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="59050" started-at="2019-02-26T14:14:15Z" finished-at="2019-02-26T14:15:14Z">
+      <class name="demo.ValidateE2EFlow">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:demo.ValidateE2EFlow@4c70fda8]" name="setUp" is-config="true" duration-ms="18883" started-at="2019-02-26T19:44:15Z" finished-at="2019-02-26T19:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="grabSuccessMessage()[pri:0, instance:demo.ValidateE2EFlow@4c70fda8]" name="grabSuccessMessage" duration-ms="40144" started-at="2019-02-26T19:44:34Z" finished-at="2019-02-26T19:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- grabSuccessMessage -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:demo.ValidateE2EFlow@4c70fda8]" name="tearDown" is-config="true" duration-ms="0" started-at="2019-02-26T19:45:14Z" finished-at="2019-02-26T19:45:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- demo.ValidateE2EFlow -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
