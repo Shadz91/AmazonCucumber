@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [E2E]" parallel="classes">
+  <parameter name="val" value="10"/>
+  <parameter name="url" value="https://www.google.com/"/>
+  <listeners>
+    <listener class-name="testCases.Rough4Listeners"/>
+  </listeners>
+  <test name="Test Folder 1(failed)" parallel="classes">
+    <classes>
+      <class name="testCases.Rough1">
+        <methods>
+          <include name="x"/>
+        </methods>
+      </class> <!-- testCases.Rough1 -->
+      <class name="testCases.ActionsClassUsageRobotClass">
+        <methods>
+          <include name="x"/>
+        </methods>
+      </class> <!-- testCases.ActionsClassUsageRobotClass -->
+      <class name="testCases.Rough">
+        <methods>
+          <include name="x"/>
+        </methods>
+      </class> <!-- testCases.Rough -->
+      <class name="testCases.WindowHandles">
+        <methods>
+          <include name="x"/>
+        </methods>
+      </class> <!-- testCases.WindowHandles -->
+      <class name="testCases.SeleniumAllDriverMethods">
+        <methods>
+          <include name="x"/>
+        </methods>
+      </class> <!-- testCases.SeleniumAllDriverMethods -->
+    </classes>
+  </test> <!-- Test Folder 1(failed) -->
+</suite> <!-- Failed suite [E2E] -->

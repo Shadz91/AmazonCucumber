@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="E2E" parallel="classes">
+	<listeners>
+		<listener class-name="testCases.Rough4Listeners"></listener>
+	</listeners>
+	<parameter name="url" value="https://www.google.com/"></parameter>
+	<parameter name="val" value="10"></parameter>
+
+	<test thread-count="5" name="Test Folder 1">
+		<packages>
+			<package name="testCases"></package>
+		</packages>
+	</test>
+
+	<test thread-count="5" name="Test Folder 2">
+		<classes>
+			<class name="testCases.Rough3">
+				<methods>
+					<exclude name="y"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Test Folder 3">
+		<groups>
+			<run>
+				<include name="Smoke"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="testCases.Rough3"></class>
+		</classes>
+	</test>
+
+</suite>
