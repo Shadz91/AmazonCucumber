@@ -1,0 +1,6 @@
+02:01:29.866 [main] INFO  resources.Base - Departure City is entered successfully
+02:01:29.974 [main] INFO  resources.Base - Arrival City is entered successfully
+02:01:32.710 [main] DEBUG resources.Base - I have clicked on the Search button successfully
+02:01:43.701 [main] DEBUG resources.Base - I have clicked on the Continue button successfully
+02:01:44.057 [main] DEBUG resources.Base - I have grabbed the Error message successfully
+02:02:08.223 [main] INFO  resources.Base - Driver is initialized successfully
