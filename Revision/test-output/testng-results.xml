@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="7078" started-at="2019-01-26T19:10:54Z" finished-at="2019-01-26T19:11:01Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="7078" started-at="2019-01-26T19:10:54Z" finished-at="2019-01-26T19:11:01Z">
+      <class name="revision.JavascriptExecutorUsage">
+        <test-method status="PASS" signature="x()[pri:0, instance:revision.JavascriptExecutorUsage@4f933fd1]" name="x" duration-ms="7057" started-at="2019-01-27T00:40:54Z" finished-at="2019-01-27T00:41:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- x -->
+      </class> <!-- revision.JavascriptExecutorUsage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,6 @@
+02:02:16.161 [main] INFO  resources.Base - Page is Loaded successfully
+02:02:16.345 [main] INFO  resources.Base - Departure City is entered successfully
+02:02:16.453 [main] INFO  resources.Base - Arrival City is entered successfully
+02:02:19.641 [main] DEBUG resources.Base - I have clicked on the Search button successfully
+02:02:26.872 [main] DEBUG resources.Base - I have clicked on the Continue button successfully
+02:02:27.120 [main] DEBUG resources.Base - I have grabbed the Error message successfully
