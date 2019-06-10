@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="8" passed="8">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="870" started-at="2019-03-03T15:08:10Z" finished-at="2019-03-03T15:08:11Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="870" started-at="2019-03-03T15:08:10Z" finished-at="2019-03-03T15:08:11Z">
+      <class name="testCases.ValidateWriteTest">
+        <test-method status="PASS" signature="abc()[pri:0, instance:testCases.ValidateWriteTest@5e5792a0]" name="abc" duration-ms="172" started-at="2019-03-03T20:38:11Z" finished-at="2019-03-03T20:38:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- abc -->
+      </class> <!-- testCases.ValidateWriteTest -->
+      <class name="testCases.ValidateReadTest">
+        <test-method status="PASS" signature="xyz(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateReadTest@d8355a8]" name="xyz" duration-ms="0" started-at="2019-03-03T20:38:11Z" data-provider="testData" finished-at="2019-03-03T20:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Username]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="xyz(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateReadTest@d8355a8]" name="xyz" duration-ms="15" started-at="2019-03-03T20:38:11Z" data-provider="testData" finished-at="2019-03-03T20:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[cde@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="xyz(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateReadTest@d8355a8]" name="xyz" duration-ms="0" started-at="2019-03-03T20:38:11Z" data-provider="testData" finished-at="2019-03-03T20:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1.2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="xyz(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateReadTest@d8355a8]" name="xyz" duration-ms="0" started-at="2019-03-03T20:38:11Z" data-provider="testData" finished-at="2019-03-03T20:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[bcd@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="xyz(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateReadTest@d8355a8]" name="xyz" duration-ms="0" started-at="2019-03-03T20:38:11Z" data-provider="testData" finished-at="2019-03-03T20:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="xyz(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateReadTest@d8355a8]" name="xyz" duration-ms="16" started-at="2019-03-03T20:38:11Z" data-provider="testData" finished-at="2019-03-03T20:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3.6]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4.8]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+        <test-method status="PASS" signature="xyz(java.lang.String, java.lang.String)[pri:0, instance:testCases.ValidateReadTest@d8355a8]" name="xyz" duration-ms="0" started-at="2019-03-03T20:38:11Z" data-provider="testData" finished-at="2019-03-03T20:38:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[def@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- xyz -->
+      </class> <!-- testCases.ValidateReadTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
