@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests" thread-count="6">
+
+	<listeners>
+		<listener class-name="com.udemy.rahul.Listeners"></listener>
+	</listeners>
+	<!-- <parameter name="URL" value="http://qaclickacademy.com/"></parameter> -->
+
+	<test thread-count="5" name="Personal Loan Test">
+		<parameter name="URL" value="personalLoan.com"></parameter>
+		<parameter name="username" value="123456"></parameter>
+		<classes>
+			<class name="com.udemy.rahul.Day4" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Car Loan Test">
+		<parameter name="URL" value="carLoan.com"></parameter>
+		<classes>
+			<class name="com.udemy.rahul.Day3" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Fail Test">
+		<classes>
+			<class name="com.udemy.rahul.Day1" />
+		</classes>
+	</test>
+</suite>

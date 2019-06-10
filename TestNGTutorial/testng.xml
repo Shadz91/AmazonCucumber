@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<test thread-count="5" name="Personal Loan Test">
+		<classes>
+			<class name="com.udemy.rahul.Day1">
+				<methods>
+					<include name="testCaseOne"></include>
+				</methods>
+			</class>
+
+			<class name="com.udemy.rahul.Day2" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Car Loan Test">
+		<classes>
+			<class name="com.udemy.rahul.Day3">
+				<methods>
+					<exclude name="mobile.*"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Home Loan Test">
+		<classes>
+			<class name="com.udemy.rahul.Day4" />
+		</classes>
+	</test>
+</suite> 

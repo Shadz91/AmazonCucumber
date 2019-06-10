@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11366" started-at="2018-12-25T19:18:31Z" finished-at="2018-12-25T19:18:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11366" started-at="2018-12-25T19:18:31Z" finished-at="2018-12-25T19:18:42Z">
+      <class name="com.udemy.rahul.Assignment">
+        <test-method status="PASS" signature="assignmentTest()[pri:0, instance:com.udemy.rahul.Assignment@1d057a39]" name="assignmentTest" duration-ms="5516" started-at="2018-12-25T19:18:31Z" finished-at="2018-12-25T19:18:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assignmentTest -->
+        <test-method status="PASS" signature="login()[pri:0, instance:com.udemy.rahul.Assignment@1d057a39]" name="login" duration-ms="5821" started-at="2018-12-25T19:18:36Z" finished-at="2018-12-25T19:18:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- com.udemy.rahul.Assignment -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
